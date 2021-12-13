@@ -1,0 +1,11 @@
+{
+	"token": "your-token-goes-here",
+	"clientid": "000000000000000000",
+	"lavalink": [
+		{
+			"host": "localhost",
+			"port": "2333",
+			"password": "youshallnotpass"
+		}
+	]
+}
