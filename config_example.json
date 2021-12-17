@@ -1,10 +1,14 @@
 {
 	"token": "your-token-goes-here",
+	"clientid": "000",
 	"lavalink": [
 		{
 			"host": "localhost",
 			"port": "2333",
 			"password": "youshallnotpass"
 		}
-	]
+	],
+	"pushGuild": false,
+	"pushGuildId": "000",
+	"pushGlobal": false
 }
