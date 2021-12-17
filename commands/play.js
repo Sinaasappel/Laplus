@@ -13,6 +13,8 @@ module.exports = {
 		const m = i.options.getString('song');
 		if(!m) return i.editReply('No Song Input !');
 
+		if(!client.bUtils.vcCheck(i)) return;
+
 		const r = await client.lava.rest.loadTracks(`ytmsearch:${m}`);
 
 		await i.editReply(`Found Song ! : ${r.tracks[0].info.title}`);

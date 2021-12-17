@@ -5,6 +5,6 @@ module.exports = {
 		.setName('ping')
 		.setDescription('Ping Pong !'),
 	async execute(i) {
-		i.editReply('Pong!');
+		await i.editReply('Pong!');
 	},
 };
