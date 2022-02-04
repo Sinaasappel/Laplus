@@ -1,10 +1,10 @@
 {
 	"vc": {
 		"perm": {
-			"notjoinvc": "Join Voice Channel First",
-			"notsamevcbot": "You Are Not In The Same Room With Bot",
-			"vcnotjoinable": "I Not Have Permission To Join That Room !",
-			"vcnotspeakable": "I Not Have Permission To Speak In That Room !"
+			"notjoinvc": "חייב להצטרף לווייס בשביל להוסיף שיר",
+			"notsamevcbot": "אתה לא באותו ערוץ כמו הבוט",
+			"vcnotjoinable": "אין לי רשות להצטרף לערוץ!!!",
+			"vcnotspeakable": "אין לי רשות לדבר :((("
 		}
 	},
 	"etc": {
