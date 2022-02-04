@@ -6,12 +6,12 @@ module.exports = {
 		.setDescription('Play Some Music !')
 		.addStringOption(option =>
 			option.setName('song')
-				.setDescription('Link Or Name Of The Music')
+				.setDescription('או שם או לינק')
 				.setRequired(true)
 		),
 	async execute(i, client) {
 		const m = i.options.getString('song');
-		if(!m) return i.editReply('No Song Input !');
+		if(!m) return i.editReply('אין שיר???');
 
 		if(!client.bUtils.vcCheck(i)) return;
 
